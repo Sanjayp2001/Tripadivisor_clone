@@ -1,0 +1,382 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    background-color: white;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img {
+    background-color: lightgreen;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.categories {
+    text-align: center;
+}
+
+.categories a,
+.categories button {
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+}
+
+.categories button {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.categories button:hover {
+    background-color: rgb(231, 231, 231);
+    border-radius: 25px;
+}
+
+.categories a:hover {
+    text-decoration: underline;
+    color: rgb(99, 99, 99);
+}
+
+.rightside .lang,
+.signin {
+    margin-left: 15px;
+}
+
+.rightside .lang {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: large;
+    width: 100px;
+}
+
+.rightside .lang:hover {
+    background-color: rgb(214, 214, 214);
+    border-radius: 25px;
+}
+
+.rightside .signin {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+}
+
+.searchbar {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.heading__1 {
+    text-decoration: none;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.heading__1 p {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+    margin-left: 30px;
+    display: inline;
+    
+}
+
+.heading__1 p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.inputbox{
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 25px;
+    width: 50%;
+    align-items: center;
+}
+
+.inputbox input{
+    border: none;
+    width: 100%;
+    height: 30px;
+    padding: 6px;
+    margin-left: 5px;
+    font-size: large;
+}
+
+.inputbox input:focus{
+    outline: none;
+}
+
+.inputbox button{
+    padding: 5px;
+    background-color: rgb(121, 234, 121);
+    color: rgb(0, 0, 0);
+    width: 20%;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 30px;
+}
+
+.inputbox button:hover{
+    cursor: pointer;
+}
+
+.img img {
+    max-width: 78%;
+    border-radius: 20px;
+    margin: 40px 0 0 167px;
+}
+
+.img2 img{
+    max-width: 78%;
+    border-radius: 20px;
+    margin: 40px 0 0 167px;
+}
+
+.recommended{
+    margin-left: 165px;
+}
+
+.card p{
+    margin-left: 165px;
+}
+
+.card{
+    display: flex;
+    margin-left: 105px;
+}
+
+.card img {
+    margin-left: 60px;
+}
+
+.asiabeach img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.recommended2{
+    margin-left: 165px;
+}
+
+
+.card2{
+    display: flex;
+    margin-left: 105px;
+}
+
+.card2 img{
+    margin-left: 60px;
+}
+
+.bangalore img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+
+.recommended3{
+    margin-left: 165px; 
+}
+
+.card3{
+display: flex;
+margin-left: 105px;
+}
+
+.card3 img{
+    margin-left: 60px ;
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+}
+
+.img3{
+    margin-top: 20px;
+}
+
+.img3 img{
+    width: 78%;
+    margin-left: 165px;
+    border-radius: 20px;
+}
+
+.footer{
+    background-color: #FAF1ED;
+    color: black;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.footer__one{
+    display: flex;
+    gap: 40px; 
+}
+
+.footer__one p{
+    margin-left: 10px;
+}
+
+.footer__one a{
+    text-decoration: none;
+}
+
+.footer__four__s1{
+    margin-left: 200px;
+}
+
+.footer__five__s1 select{
+    border-radius: 20px;
+}
+
+.footer__six__s1 select{
+    border-radius: 20px;
+}
+
+.icons{
+    margin-left: 100px;
+}
+
+.icons i{
+    margin-top: 40px;
+    width: 40px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .categories {
+        display: none;
+    }
+
+    .rightside {
+        display: none;
+    }
+
+    .searchbar {
+        margin: 20px auto;
+        font-size: 18px;
+    }
+
+    #menubar{
+        display: none;
+    }
+
+    .inputbox {
+        margin: 0 auto;
+        width: 90%;
+        height: 30px;
+    }
+
+    .inputbox button {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .img img,
+    .img2 img,
+    .img3 img {
+        margin: 20px 0 0 30px;
+    }
+
+    .heading__1 {
+        display: none;
+    }
+
+    .card,
+    .card2,
+    .card3 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .card img,
+    .card2 img,
+    .card3 img {
+        margin: 20px 0;
+    }
+
+    .asiabeach img,
+    .bangalore img {
+        margin: 20px 0;
+    }
+
+    .recommended,
+    .recommended2,
+    .recommended3 {
+        margin-left: 0;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer__one {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer__four__s1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    
+    
+}
